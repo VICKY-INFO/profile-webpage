@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#licenses-certifications">Licenses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Mode Toggle Button -->
+            <button id="mode-toggle">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home/Hero Section -->
+        <section id="home">
+            <canvas id="home-canvas"></canvas>
+            <div class="container hero-layout">
+                <div class="hero-content-left">
+                    <h1>Hi There, I'm <br><span class="name-highlight">[Your Name]</span></h1>
+                    <p>I Am Into [Your Field] Develop!</p>
+                    <a href="#about" class="cta-button">About Me <i class="fas fa-arrow-right"></i></a>
+                    <div class="social-media-links">
+                        <a href="https://linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/username" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/username" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/username" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="https://youtube.com/channel/username" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="hero-content-right">
+                    <img src="https://placehold.co/400x400/4285F4/FFFFFF?text=%F0%9F%91%A4" alt="Cartoon Avatar">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="bio-container">
+                    <p id="about-bio">This is a placeholder for your brief biography. Talk about your background, what drives you, and what you're passionate about. Mention your experience and goals. Keep it concise and engaging. You can expand on this to include more personal details or professional achievements.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Experience Section (Updated to List) -->
+        <section id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <img src="https://placehold.co/60x60/CCCCCC/333333?text=Logo" alt="Company Logo">
+                            <div class="experience-details">
+                                <h3>[Company Name 1]</h3>
+                                <p>[Your Role]</p>
+                                <p>[YYYY - YYYY]</p>
+                            </div>
+                        </div>
+                        <div class="experience-description">
+                            <p>
+                                This is a placeholder for a detailed description of your role, responsibilities, and achievements at this company.
+                                You can use multiple lines here to showcase your skills and impact.
+                                This area is designed to provide more context to your experience, highlighting key projects or contributions.
+                                It's a great place to elaborate on your accomplishments.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <img src="https://placehold.co/60x60/CCCCCC/333333?text=Logo" alt="Company Logo">
+                            <div class="experience-details">
+                                <h3>[Company Name 2]</h3>
+                                <p>[Your Role]</p>
+                                <p>[YYYY - YYYY]</p>
+                            </div>
+                        </div>
+                        <div class="experience-description">
+                             <p>
+                                This is a placeholder for a detailed description of your role, responsibilities, and achievements at this company.
+                                You can use multiple lines here to showcase your skills and impact.
+                                This area is designed to provide more context to your experience, highlighting key projects or contributions.
+                                It's a great place to elaborate on your accomplishments.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <img src="https://placehold.co/60x60/CCCCCC/333333?text=Logo" alt="Company Logo">
+                            <div class="experience-details">
+                                <h3>[Company Name 3]</h3>
+                                <p>[Your Role]</p>
+                                <p>[YYYY - YYYY]</p>
+                            </div>
+                        </div>
+                        <div class="experience-description">
+                             <p>
+                                This is a placeholder for a detailed description of your role, responsibilities, and achievements at this company.
+                                You can use multiple lines here to showcase your skills and impact.
+                                This area is designed to provide more context to your experience, highlighting key projects or contributions.
+                                It's a great place to elaborate on your accomplishments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section with Logos and Names (New Layout) -->
+        <section id="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <!-- Python -->
+                    <a href="https://www.python.org/" target="_blank" class="skill-item">
+                        <img src="https://www.svgrepo.com/show/373977/python.svg" alt="Python Logo">
+                        <h3>Python</h3>
+                    </a>
+                    <!-- Flutter -->
+                    <a href="https://flutter.dev/" target="_blank" class="skill-item">
+                        <img src="https://www.svgrepo.com/show/508933/flutter.svg" alt="Flutter Logo">
+                        <h3>Flutter</h3>
+                    </a>
+                    <!-- Ubuntu -->
+                    <a href="https://ubuntu.com/" target="_blank" class="skill-item">
+                        <img src="https://www.svgrepo.com/show/373934/ubuntu.svg" alt="Ubuntu Logo">
+                        <h3>Ubuntu</h3>
+                    </a>
+                    <!-- Git Source Control -->
+                    <a href="https://git-scm.com/" target="_blank" class="skill-item">
+                        <img src="https://www.svgrepo.com/show/512342/git.svg" alt="Git Logo">
+                        <h3>Git Source Control</h3>
+                    </a>
+                    <!-- ERPNext -->
+                    <a href="https://erpnext.com/" target="_blank" class="skill-item">
+                        <img src="https://www.svgrepo.com/show/303496/erpnext.svg" alt="ERPNext Logo">
+                        <h3>ERPNext</h3>
+                    </a>
+                    <!-- MongoDB -->
+                    <a href="https://www.mongodb.com/" target="_blank" class="skill-item">
+                        <img src="https://www.svgrepo.com/show/373845/mongodb.svg" alt="MongoDB Logo">
+                        <h3>MongoDB</h3>
+                    </a>
+                    <!-- HTML & CSS -->
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="skill-item">
+                        <img src="https://www.svgrepo.com/show/493771/html.svg" alt="HTML & CSS Logo">
+                        <h3>Html & Css</h3>
+                    </a>
+                    <!-- JavaScript -->
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="skill-item">
+                        <img src="https://www.svgrepo.com/show/373673/js.svg" alt="JavaScript Logo">
+                        <h3>JavaScript</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/CCCCCC/333333?text=Project+1" alt="Project 1 Thumbnail">
+                        <div class="project-content">
+                            <h3>Project Title One</h3>
+                            <p class="project-description">A brief description of your project and the technologies you used. Explain the problem it solves or the goal it achieves. This description can be quite long, and you might want to summarize it for a cleaner look on your portfolio.</p>
+                            <a href="#" class="see-more-btn">See More</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/CCCCCC/333333?text=Project+2" alt="Project 2 Thumbnail">
+                        <div class="project-content">
+                            <h3>Project Title Two</h3>
+                            <p class="project-description">Another brief description of a project. Highlight a different set of skills or a different area of expertise.</p>
+                            <a href="#" class="see-more-btn">See More</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/CCCCCC/333333?text=Project+3" alt="Project 3 Thumbnail">
+                        <div class="project-content">
+                            <h3>Project Title Three</h3>
+                            <p class="project-description">A third project description. Be sure to link to a live demo or the GitHub repository for each project.</p>
+                            <a href="#" class="see-more-btn">See More</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 4 -->
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/CCCCCC/333333?text=Project+4" alt="Project 4 Thumbnail">
+                        <div class="project-content">
+                            <h3>Project Title Four</h3>
+                            <p class="project-description">A fourth project description. This can showcase a passion project or a freelance client's work.</p>
+                            <a href="#" class="see-more-btn">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Licenses & Certifications Section -->
+        <section id="licenses-certifications">
+            <div class="container">
+                <h2>Licenses & Certifications</h2>
+                <div class="licenses-list">
+                    <!-- Placeholder for License/Certification 1 -->
+                    <div class="license-item">
+                        <img src="https://placehold.co/80x80/CCCCCC/333333?text=Badge" alt="Certification Badge" class="badge">
+                        <div class="details">
+                            <h3>[Certification Name 1]</h3>
+                            <p>[Issuing Organization] - [Date]</p>
+                        </div>
+                        <a href="https://example.com/certificate1" target="_blank" class="credential-button">Credential URL</a>
+                    </div>
+                    <!-- Placeholder for License/Certification 2 -->
+                    <div class="license-item">
+                        <img src="https://placehold.co/80x80/CCCCCC/333333?text=Badge" alt="Certification Badge" class="badge">
+                        <div class="details">
+                            <h3>[Certification Name 2]</h3>
+                            <p>[Issuing Organization] - [Date]</p>
+                        </div>
+                        <a href="https://example.com/certificate2" target="_blank" class="credential-button">Credential URL</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Feel free to reach out to me for collaborations, job opportunities, or just to say hi!</p>
+                <a href="mailto:your.email@example.com" class="contact-link">your.email@example.com</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Link to the external JavaScript file -->
+    <!-- Three.js is loaded here because it is needed by the script.js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
